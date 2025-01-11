@@ -1,0 +1,12 @@
+1-full.txt: tests all non-error features except defrag
+2-simple.txt: tests the items from "Saving, part 1" in the rubric
+3-delete.txt: tests saving and "Deleting" in the rubric
+4-complex.txt: tests the items from "Saving, part 2" in the rubric
+5-other.txt: tests the items from "Other operations" in the rubric
+6-errors.txt: tests error and edge case conditions
+              if it crashes with a failed assertion try again with -DNDEBUG
+              run this twice, once with the default size, once with -b 128
+
+7-defrag1.txt: tests simple defragmentation of one file
+8-defrag2.txt: tests defragmentation of multiple files
+9-defrag3.txt: tests complex defragmentation with multiple interleaved files

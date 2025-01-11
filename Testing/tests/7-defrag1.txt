@@ -1,0 +1,15 @@
+save test/200 a
+save test/1000 b
+save test/200 c
+save test/1000 d
+save test/200 e
+save test/1000 f
+save test/200 g
+delete b
+delete d
+delete f
+save test/8000 d
+fulldir
+defrag
+fulldir
+load d 7-8000out

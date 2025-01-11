@@ -1,0 +1,22 @@
+save test/200 a
+save test/200 b
+save test/200 c
+save test/200 d
+save test/200 e
+save test/200 f
+save test/200 g
+save test/200 h
+save test/200 i
+save test/200 j
+delete a
+delete c
+delete e
+delete g
+delete i
+save test/1000 aaa
+save test/8000 bbb
+fulldir
+defrag
+load aaa 8-1000out
+load bbb 8-8000out
+fulldir

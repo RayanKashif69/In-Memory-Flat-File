@@ -1,0 +1,16 @@
+save test/8000 thisisan8000bytefile.dat
+save test/8000 thisisanother8000bytefile.dat
+delete thisisan8000bytefile.dat
+save test/1000 onethousand1.data
+save test/1000 onethousand2.data
+save test/1000 onethousand3.data
+save test/1000 onethousand4.data
+save test/1000 onethousand5.data
+save test/1000 onethousand6.data
+save test/1000 onethousand7.data
+save test/1000 onethousand8.data
+dir
+delete thisisanother8000bytefile.dat
+delete onethousand1.data
+save test/8000 8000.dat
+fulldir

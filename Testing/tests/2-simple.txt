@@ -1,0 +1,12 @@
+dir
+save test/1000 b
+save test/1000 g
+save test/8000 f
+save test/200 a
+save test/1000 c
+save test/200 e
+save test/200 d
+dir
+load b 2-1000out
+load d 2-200out
+load f 2-8000out

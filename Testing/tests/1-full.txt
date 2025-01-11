@@ -1,0 +1,27 @@
+save test/200 a
+save test/200 x
+save test/1000 b
+save test/200 e
+save test/1000 f
+save test/256 c
+save test/200 d
+save test/1000 g
+dir
+load d 1-200out
+delete x
+delete e
+delete d
+save test/1000 e
+delete b
+save test/8000 h
+save test/1000 i
+rename i j
+delete g
+delete f
+save test/0 0
+save test/1000 k
+load 0 1-0out
+load h 1-8000out
+rename k l
+load l 1-1000out
+fulldir

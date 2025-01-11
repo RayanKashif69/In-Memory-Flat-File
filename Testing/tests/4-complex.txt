@@ -1,0 +1,32 @@
+save test/200 j
+save test/200 c
+save test/200 i
+save test/200 h
+save test/200 f
+save test/200 x
+save test/200 g
+save test/200 e
+save test/200 d
+save test/200 a
+save test/200 b
+delete x
+dir
+save test/1000 1000-1
+delete c
+delete f
+delete a
+save test/8000 8000
+delete j
+delete e
+delete d
+save test/1000 1000-2
+delete h
+delete b
+save test/1000 1000-3
+delete g
+delete i
+save test/1000 1000-4
+load 1000-1 4-1000out1
+load 1000-2 4-1000out2
+load 1000-3 4-1000out3
+load 8000 4-8000out

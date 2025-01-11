@@ -1,0 +1,28 @@
+save test/x this_file_shouldnt_exist
+save test/1000 a
+save test/8000 b
+save test/200 a
+load aaa 6-shouldnt_exist
+load a 6-1000or200out
+rename aaa b
+rename a b
+save test/8000 c
+delete ccc
+delete c
+save test/0 0
+save test/1 1
+save test/1024 1024
+save test/1025 1025
+save test/255 255
+save test/256 256
+save test/257 257
+save test/8000 d
+save test/1000 e
+save test/8000 f
+fulldir
+load 1024 6-1024out
+load 1025 6-1025out
+load 255 6-255out
+load 256 6-256out
+load 257 6-257out
+load f 6-8000out

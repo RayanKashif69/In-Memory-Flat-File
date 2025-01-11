@@ -1,0 +1,14 @@
+save test/200 a
+save test/1000 b
+save test/200 c
+save test/1000 d
+rename a aaa
+rename d dddlongnameddd
+fulldir
+delete aaa
+delete c
+save test/8000 8000
+rename b bbb
+rename 8000 zzz
+load bbb 5-1000out
+fulldir
