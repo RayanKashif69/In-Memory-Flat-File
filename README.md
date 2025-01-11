@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 # In-Memory-Flat-File
-=======
 IMFFS (In-Memory Flash File System)
 
 Overview
@@ -46,4 +45,4 @@ Important Notes
 This implementation assumes a fixed block size of 256 bytes.
 Ensure proper error handling and memory management in your application when using IMFFS functions.
 Refer to the function documentation in the header file for detailed usage instructions and parameters.
->>>>>>> 33115ea (Adding makefile and updated imffs project source files)
+
